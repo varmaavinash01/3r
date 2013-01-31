@@ -1,0 +1,8 @@
+<h1>Set lift for your experiment..  </h1>
+
+<%= form_tag(lift_path) do %>
+  <%= label_tag(:q, "% :") %>
+  <%= text_field_tag(:lift) %>
+  <%= submit_tag("Set") %>
+<% end %>
+
