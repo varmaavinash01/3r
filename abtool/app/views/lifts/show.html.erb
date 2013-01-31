@@ -5,4 +5,9 @@
   <%= text_field_tag(:lift) %>
   <%= submit_tag("Set") %>
 <% end %>
+<br><br>
 
+<h3> Previous Values </h3>
+<% @values.each do |value| %>
+  <br> <%= value %>%</b> <a href="#">set this value</a><br>
+<% end %>

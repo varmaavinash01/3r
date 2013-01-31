@@ -20,5 +20,6 @@ class LiftsController < ApplicationController
   end
 
   def show
+    @values = [10, 20, 30, 40]
   end  
 end
