@@ -4,7 +4,7 @@ class LiftsController < ApplicationController
 
   def create
     @lift = params[:lift]
-    Lift.set_lift(@lift)
+    Lift.set_lift(params[:lift].to_s)
   end
 
   def update
